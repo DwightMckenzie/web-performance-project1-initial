@@ -56,9 +56,15 @@
         
         <section class="hero">
 
-            <img class="desktop" src="imgs/Hero_Desktop.webp">
-            <img class="mobile" src="imgs/Hero_Mobile.webp">
-            <img class="tablet" src="imgs/Hero_Tablet.webp">
+            <picture>
+                <source media="(max-width: 414px)" srcset="imgs/Hero_Mobile.webp">
+                <source media="(max-width: 768px)" srcset="imgs/Hero_Tablet.webp">
+                <img src="imgs/Hero_Desktop.webp">
+            </picture>
+            
+            <!-- <img class="desktop" src="imgs/Hero_Desktop.webp">
+                <img class="mobile" src="imgs/Hero_Mobile.webp">
+                <img class="tablet" src="imgs/Hero_Tablet.webp"> -->
 
            
             <div class="hero-content">
