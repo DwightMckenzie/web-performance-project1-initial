@@ -1,9 +1,38 @@
+@font-face {
+    font-family: Roboto;
+    src: url('fonts/Roboto-Regular.ttf') format('truetype');
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: Roboto;
+    src: url('fonts/Roboto-Light.ttf') format('truetype');
+    font-display: swap;
+    font-weight: 300;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: Roboto;
+    src: url('fonts/Roboto-Medium.ttf') format('truetype');
+    font-display: swap;
+    font-weight: 500;
+    font-style: light;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url('fonts/Roboto-Bold.ttf') format('truetype');
+    font-display: swap;
+    font-weight: 700;
+    font-style: bold;
+}
 
 body {
     margin: 0;
-    font-family: 'Heebo';
+    font-family: Roboto;
     padding-top: 80px;
 }
 
