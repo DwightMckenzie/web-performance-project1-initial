@@ -44,7 +44,6 @@ body {
     
 }
 
-
 ul {
     margin: 0;
     padding: 0;
@@ -182,7 +181,7 @@ section.hero img.desktop {
     max-width: 100%;
     border-radius: 92px;
     background-color: #33c6dd;
-    color: #FFF;
+    color: #002e91;
     font-size: 16px;
     font-weight: 700;
     letter-spacing: 0.4px;
@@ -194,7 +193,7 @@ section.hero img.desktop {
 }
 
 .hero-content button:hover {
-    color: #33c6dd;
+    color: #002e91;
     background-color: #FFF;
     border: 1px solid #33c6dd;
 }
@@ -217,7 +216,7 @@ section.best-sellers {
     padding-top: 80px;
 }
 
-section.best-sellers h1 {
+section.best-sellers h2 {
     text-align: center;
     font-size: 34px;
     letter-spacing: 0.85px;
@@ -260,9 +259,9 @@ section.best-sellers .product-slider .product {
     cursor: pointer;
 }
 
-
 section.best-sellers .product-slider .product img {
     max-width: 40%;
+    height: auto;
 }
 
 section.best-sellers .product-slider .product .product-picture {
@@ -295,7 +294,7 @@ section.best-sellers .product-slider .product .product-info {
 }
 
 section.best-sellers .product-slider .product .product-info .categories {
-    color: #33c6dd;
+    color: #002e91;
     font-weight: normal;
     font-size: 14px;
     letter-spacing: 0.35px;
@@ -329,7 +328,7 @@ section.best-sellers .product-slider .product .product-info .price .discounted-p
 }
 
 section.best-sellers .product-slider .product .product-info .price .original-price {
-    color: #9B9B9B;
+    color: #002e91;
     font-weight: normal;
     font-size: 16px;
     letter-spacing: 0.4px;
@@ -354,7 +353,7 @@ section.best-sellers .product-slider .product .product-info button {
 section.best-sellers .product-slider .product:hover .product-info button {
     background-color: #33c6dd;
     border: 1px solid #33c6dd;
-    color: white;
+    color: #002e91;
 }
 
 
@@ -366,7 +365,7 @@ section.newsletter {
     margin: 80px auto;
 }
 
-section.newsletter h3 {
+section.newsletter p {
     font-size: 24px;
     letter-spacing: 0.6px;
     line-height: 42px;
@@ -538,7 +537,7 @@ footer .copyright-text {
         padding-top: 50px;
     }
     
-    section.best-sellers h1 {
+    section.best-sellers h2 {
         font-size: 28px;
         letter-spacing: 0.7px;
         line-height: 38px;
@@ -690,7 +689,7 @@ footer .copyright-text {
         max-width: 360px;
     }
 
-    section.best-sellers h1 {
+    section.best-sellers h2 {
         font-size: 36px;
         letter-spacing: 0.6px;
         line-height: 38px;
